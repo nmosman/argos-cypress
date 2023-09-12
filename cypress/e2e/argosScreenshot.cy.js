@@ -22,7 +22,7 @@ describe("argosScreenshot", () => {
       );
     });
 
-    it("takes a screenshot with generic name", () => {
+    it("takessssssss a screenshot with generic name", () => {
       cy.readFile(
         `${screenshotsFolder}/argosScreenshot -- without name -- waits for loader hiding -- before all hook.png`
       );
