@@ -2,6 +2,7 @@ const screenshotsFolder = Cypress.browser.isHeaded
   ? `./cypress/screenshots`
   : `./cypress/screenshots/${Cypress.spec.name}`;
 
+  
 describe("argosScreenshot", () => {
   before(() => {
     cy.visit("cypress/pages/index.html");
