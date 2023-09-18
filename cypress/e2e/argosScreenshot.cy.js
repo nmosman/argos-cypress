@@ -32,6 +32,7 @@ describe("argosScreenshot", () => {
   describe("with name", () => {
     it("takes a named screenshot", () => {
       cy.argosScreenshot("named-screenshot");
+      cy.argosScreenshot("named-screenshot2");
       cy.readFile(`${screenshotsFolder}/named-screenshot.png`);
     });
   });
