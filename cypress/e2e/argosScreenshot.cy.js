@@ -40,6 +40,8 @@ describe("argosScreenshot", () => {
     it("takes a screenshot of a component with a generic name", () => {
       cy.get(".red-square").first().argosScreenshot("red-square");
       cy.readFile(`${screenshotsFolder}/named-screenshot.png`);
+      cy.argosScreenshot("test2");
+      cy.argosScreenshot("test2");
     });
   });
 });
